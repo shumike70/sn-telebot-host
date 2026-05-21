@@ -17,12 +17,11 @@ def run_web_server():
     app.run(host='0.0.0.0', port=port)
 
 # ২. মূল হোস্ট বটের টোকেন এবং ইউজার আইডি
-BOT_TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_HOST_BOT_TOKEN')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '8141092190:AAFaiAaN2db1h6FKK9iQf2k6kwy8d8BJy0s')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # আপনার নিজের টেলিগ্রাম ইউজার আইডি এখানে দিন (নিরাপত্তার জন্য অত্যন্ত জরুরি)
-OWNER_ID = 123456789  # <--- আপনার আইডি এখানে লিখুন
-
+OWNER_ID = 7787062914  # <--- আপনার আইডি এখানে লিখুন
 # চলমান সাব-বটের প্রসেস ট্র্যাক করার ভ্যারিয়েবল
 deployed_process = None
 
